@@ -1,4 +1,5 @@
 import { mylib } from '@test-nx-repo/mylib';
+import { Greeting } from '@test-nx-repo/ui-shared';
 import path from 'path';
 import styles from './index.module.css';
 path.resolve('./next.config.js');
@@ -16,8 +17,10 @@ export function Index() {
           <div id="welcome">
             <h1>
               <span> Hello there, </span>
-              Welcome amplify-next-nx 👋 {mylib()}
+              <Greeting appName="amplify-next-nx" /> 👋
             </h1>
+            <br />
+            From mylib: {mylib()}
           </div>
 
           <div id="hero" className="rounded">

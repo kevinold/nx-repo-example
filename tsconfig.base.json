@@ -15,7 +15,8 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@test-nx-repo/mylib": ["libs/mylib/src/index.ts"]
+      "@test-nx-repo/mylib": ["libs/mylib/src/index.ts"],
+      "@test-nx-repo/ui-shared": ["libs/ui-shared/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
