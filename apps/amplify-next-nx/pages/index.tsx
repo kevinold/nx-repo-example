@@ -1,5 +1,6 @@
-import styles from './index.module.css';
+import { mylib } from '@test-nx-repo/mylib';
 import path from 'path';
+import styles from './index.module.css';
 path.resolve('./next.config.js');
 
 export function Index() {
@@ -15,7 +16,7 @@ export function Index() {
           <div id="welcome">
             <h1>
               <span> Hello there, </span>
-              Welcome amplify-next-nx 👋
+              Welcome amplify-next-nx 👋 {mylib()}
             </h1>
           </div>
 
