@@ -1,8 +1,8 @@
 import { mylib } from '@test-nx-repo/mylib';
 import { Greeting } from '@test-nx-repo/ui-shared';
-import path from 'path';
+//import path from 'path';
 import styles from './index.module.css';
-path.resolve('./next.config.js');
+//path.resolve('./next.config.js');
 
 export function Index() {
   /*
